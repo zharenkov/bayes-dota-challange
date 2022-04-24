@@ -1,0 +1,9 @@
+\[\d{2}:\d{2}:\d{2}.\d{1,3}\]\s([A-Za-z_0-9]+)\sbuys\sitem\s([A-Za-z_0-9]+)$ buy item
+
+\[\d{2}:\d{2}:\d{2}.\d{1,3}\]\s([A-Za-z_0-9]+)\sis\skilled\sby\s([A-Za-z_0-9]+)$ kills
+
+
+
+\[\d{2}:\d{2}:\d{2}.\d{1,3}\]\s([A-Za-z_0-9]+)\scasts ability\s([A-Za-z_0-9]+) \(lvl\s(\d{1,})\)\son\s([A-Za-z_0-9]+)$ casts
+
+\[\d{2}:\d{2}:\d{2}.\d{1,3}\]\s([A-Za-z_0-9]+)\shits\s([A-Za-z_0-9]+)\swith\s([A-Za-z_0-9]+)\sfor\s(\d{1,}) damage(\s\(\d{1,}->\d{1,}\))?$ damage
